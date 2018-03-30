@@ -104,6 +104,7 @@ h2 {
  width: 100%;
  display: flex;
  flex-wrap: wrap;
+ margin: 20px;
 }
 
 .navbar {
@@ -139,7 +140,8 @@ h2 {
 }
 
 .navul {
- display: table;
+ display: flex;
+ flex-wrap: wrap;
  table-layout: fixed;
  text-align: center;
 }
