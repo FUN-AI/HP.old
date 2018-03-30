@@ -4,9 +4,15 @@
  color: #FFFFFF;
 }
 
+html {
+ min-height: 100%;
+ position: relative;
+}
+
 body {
  padding: 20px;
- height: 100%;
+ min-height: 100%;
+ margin-bottom: 5em;
 }
 
 .body_index {
@@ -18,6 +24,10 @@ body {
 }
 
 p {
+ padding: 5px 40px;
+}
+
+small {
  padding: 5px 40px;
 }
 
@@ -35,6 +45,45 @@ h2 {
  padding-left: 15px;
  letter-spacing: 3px;
  opacity: 0.9;
+}
+
+.name {
+ font-size: 24px;
+ font-weight: bold;
+ margin: 8px 8px 8px 32px;
+ padding: 8px 8px 8px 32px;
+ opacity: 0.9;
+ background-color:#CCCCCC;
+ color: #000000;
+ border-radius: 16px;
+}
+
+.nameul{
+ text-decoration: none;
+ list-style-type: none;
+ line-height: 24px;
+ padding: 18px 12px 0px 24px;
+ margin: 12px 0px 48px 210px;
+ min-height: 130px;
+ opacity: 0.9;
+ border-radius: 16px;
+ background-color:#222222;
+}
+
+.nameimg{
+ width: 128px;
+ height: 128px;
+ padding: 12px 12px 0px 64px;
+}
+
+.nameset {
+ display: inline-block;
+ width: 120px;
+ float: left;
+}
+
+.nameset2 {
+ display: table-cell;
 }
 
 .card {
@@ -181,4 +230,14 @@ h2 {
 #update {
  margin-top:-64px;
  padding-top:64px;
+}
+
+footer {
+ bottom: 0;
+ height: 32px;
+ position: absolute;
+}
+
+.subday {
+ text-align: right;
 }
