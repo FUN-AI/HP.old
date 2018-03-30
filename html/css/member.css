@@ -1,0 +1,38 @@
+﻿.name {
+ font-size: 24px;
+ font-weight: bold;
+ margin: 8px 8px 8px 32px;
+ padding: 8px 8px 8px 32px;
+ opacity: 0.9;
+ background-color:#CCCCCC;
+ color: #000000;
+ border-radius: 16px;
+}
+
+.nameul{
+ text-decoration: none;
+ list-style-type: none;
+ line-height: 24px;
+ padding: 12px 12px 12px 24px;
+ margin: 12px 0px 48px 210px;
+ min-height: 130px;
+ opacity: 0.9;
+ border-radius: 16px;
+ background-color:#222222;
+}
+
+.nameimg{
+ width: 128px;
+ height: 128px;
+ padding: 12px 12px 0px 64px;
+}
+
+.nameset {
+ display: inline-block;
+ width: 120px;
+ float: left;
+}
+
+.nameset2 {
+ display: table-cell;
+}
