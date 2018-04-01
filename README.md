@@ -1,7 +1,17 @@
 ## フォルダの構造  
 pic - 使う画像を入れる仮のフォルダ  
 html - HTMLファイルが入ってるフォルダ  
- index.htmlから開けるようになってる  
+index.htmlから開けるようになってる  
+ 
+## 各ファイルの説明  
+index.html - ここから開く  
+css/base.css - 基本のcss  
+css/member.css - メンバーのページに関するcss  
+css/scroll.css - スクロールバーに関するcss  
+html/#subpage_template.html - サブページのテンプレート  
+html/home.html - メインのページ  
+html/member.html - メンバー紹介のページ  
+html/navbar.html - ナビゲーションバー  
 
 ## htmlについて  
 Homepage  
