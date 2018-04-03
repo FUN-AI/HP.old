@@ -1,0 +1,69 @@
+.card {
+ position: relative;
+ display: block;
+ overflow: hidden;
+ width: 240px;
+ height: 320px;
+ background-color: #FFFFFF;
+ margin: 10px;
+ border: 1px solid #000000;
+}
+
+.card:hover {
+ opacity: 0.5;
+}
+
+.card h1 {
+ padding: 0px;
+ position: absolute;
+ top: 88px;
+ left: 8px;
+ color: #FFFFFF;
+ font-size: 22px;
+ font-weight: bold;
+ text-shadow: 1px 1px 1px #000000, -1px 1px 1px #000000, 1px -1px 1px #000000, -1px -1px 1px #000000;
+}
+
+.card h3 {
+ position: absolute;
+ top: 135px;
+ left: 10px;
+ font-size: 12px;
+ font-weight: lighter;
+ color: #000000;
+}
+
+.card p {
+ font-size: 15px;
+ position: absolute;
+ top: 150px;
+ padding: 10px;
+ color: #000000;
+}
+
+.card img {
+ width: 240px;
+ height: 135px;
+ filter: blur(1px); /*‚Ú‚©‚·‚©ˆÃ‚­‚·‚é‚©...*/
+ filter: brightness(70%);
+}
+
+.card a {
+ display: block;
+ position: absolute;
+ top: 0;
+ left: 0;
+ height:100%;
+ width: 100%;
+}
+
+.card a:hover {
+ text-decoration: none;
+}
+
+.parent {
+ width: 100%;
+ display: flex;
+ flex-wrap: wrap;
+ margin: 20px;
+}
