@@ -135,6 +135,7 @@ h2 {
  padding: 20px 30px;
  margin: 0px;
  float: left;
+ border-style: none;
 }
 
 .nav>li {
