@@ -1,5 +1,7 @@
-﻿* {
- font-family: "メイリオ", "游ゴシック", "MS ゴシック", sans-serif;
+﻿@import url(https://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+* {
+ font-family: "メイリオ", "ヒラギノ角ゴ", "Noto Sans Japanese", "游ゴシック", "MS ゴシック", sans-serif;
  font-weight: lighter;
  color: #FFFFFF;
 }
@@ -43,7 +45,7 @@ h2 {
  background-color: #333333;
  margin: 25px 8px 5px;
  padding: 8px;
- padding-left: 15px;
+ padding-left: 25px;
  letter-spacing: 3px;
  opacity: 0.9;
 }
