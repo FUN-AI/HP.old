@@ -130,9 +130,8 @@ h2 {
  display: block;
 }
 
-.navh1 {
- color: #888888;
- padding: 20px;
+.navimg {
+ padding: 20px 30px;
  margin: 0px;
  float: left;
 }
@@ -150,6 +149,7 @@ h2 {
 }
 
 .navul {
+ padding-left: 0px;
  display: flex;
  flex-wrap: wrap;
  table-layout: fixed;
