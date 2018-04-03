@@ -1,0 +1,13 @@
+
+	screen 0,240,135
+
+	color 240,190,60
+	repeat 5
+		x = cnt
+		repeat 3
+			y = cnt
+			if((x+y*5)\2):boxf x*48,y*48-5,x*48+47,y*48+47-5
+		loop
+	loop
+
+	bmpsave "noimage.bmp"

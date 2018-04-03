@@ -1,0 +1,18 @@
+
+	screen 0,240,135
+
+	color 20,20,20:boxf
+	color ,128,128
+	font "コーポレート・ロゴＭ",12,16
+
+	repeat 32
+		x = cnt
+		repeat 12
+			y = cnt
+			pos x*8-5,y*12-4
+			mes strf("%X",rnd(16))
+		loop
+	loop
+
+
+	bmpsave "noimage2.bmp"
