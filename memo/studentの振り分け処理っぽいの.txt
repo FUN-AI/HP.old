@@ -1,0 +1,43 @@
+var aNam = navigator.appName;
+var aVer = navigator.appVersion;
+var uAge = navigator.userAgent;
+
+var gCssFile = new Array();
+
+if (aVer.charAt(0) >= 4) {
+
+	if (uAge.indexOf("iPhone") != -1) { 
+		gCssFile[gCssFile.length] = "iPhone_gecko.css";	
+	} else if (uAge.indexOf("Android") != -1) {
+		gCssFile[gCssFile.length] = "android_gecko.css";	
+    } else if (uAge.indexOf('Win') != -1) { 	
+		if (aNam.indexOf('Microsoft') != -1) {
+			gCssFile[gCssFile.length] = "win_ie.css";
+		}
+		if (uAge.indexOf('Opera') != -1) {
+			gCssFile[gCssFile.length] = "win_opera.css";
+		}
+		if (aNam.indexOf('Netscape') != -1) {
+			gCssFile[gCssFile.length] = "win_nn.css";
+		}
+		if (uAge.indexOf('Gecko') != -1) {
+			gCssFile[gCssFile.length] = "win_gecko.css";
+		}
+	} else if (uAge.indexOf("Mac") != -1) {
+		if (aNam.indexOf('Microsoft') != -1) {
+			gCssFile[gCssFile.length] = "mac_ie.css";
+		}
+		if (aNam.indexOf('Netscape') != -1) {
+			gCssFile[gCssFile.length] = "mac_nn.css";
+		}
+		if (uAge.indexOf('Gecko') != -1) {
+			gCssFile[gCssFile.length] = "mac_gecko.css";
+		}
+	}
+}
+
+for (i in gCssFile) {
+	document.open();
+	document.write('<LINK REL="stylesheet" TYPE="text/css" HREF="../../up/co/inc/css/layout/' + gCssFile[i] + '">');
+	document.close();
+}
