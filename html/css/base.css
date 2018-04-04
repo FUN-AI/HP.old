@@ -50,6 +50,10 @@ h2 {
  opacity: 0.9;
 }
 
+a:hover {
+ color: #AAAAAA;
+}
+
 .logul{
  text-decoration: none;
  list-style-type: none;
