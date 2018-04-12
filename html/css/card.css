@@ -13,7 +13,7 @@
  opacity: 0.5;
 }
 
-.card>h1 {
+.card h1 {
  padding: 0px;
  position: absolute;
  top: 86px;
@@ -24,7 +24,7 @@
  text-shadow: 1px 1px 1px #000000, -1px 1px 1px #000000, 1px -1px 1px #000000, -1px -1px 1px #000000;
 }
 
-.card>h3 {
+.card h3 {
  position: absolute;
  top: 135px;
  left: 10px;
@@ -33,7 +33,7 @@
  color: #000000;
 }
 
-.card>p {
+.card p {
  font-size: 15px;
  position: absolute;
  top: 150px;
