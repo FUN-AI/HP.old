@@ -17,12 +17,14 @@ body {
  margin-bottom: 5em;
 }
 
-.body_index {
- background-size: cover;
- background-repeat: no-repeat;
- background-attachment: fixed;
- background-image: url("../image/back.png");
- background-blend-mode: screen;
+@media screen and (min-width:600px){
+ .body_index {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url("../image/back.png");
+  background-blend-mode: screen;
+ }
 }
 
 p {
