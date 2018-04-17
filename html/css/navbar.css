@@ -45,6 +45,8 @@
  flex-wrap: wrap;
  table-layout: fixed;
  text-align: center;
+
+ overflow: hidden;
 }
 
 .navul li a{
@@ -53,4 +55,15 @@
  font-size: 12px;
  text-decoration: none;
  padding: 10px 0px;
+}
+
+@media screen and (max-width:600px){
+ .navbar {
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ .navul {
+  display: none;
+ }
 }
